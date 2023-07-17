@@ -8,6 +8,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { ListComponent } from './components/list/list.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ExampleComponent } from './components/example/example.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -18,10 +19,11 @@ import { ExampleComponent } from './components/example/example.component';
     HeaderComponent,
     ExampleComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

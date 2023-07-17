@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  comicTitleEn: string = ''
+comicTitleDe: string = ''
+  comicReihe: string = ''
+  volume: string = ''
+  issue: string = ''
+  SerielNumber: string = ''
+  publisher: string = ''
+  cgcGrade: string = ''
+
+
+  submit(){
+    console.log('hallo')
+
+  }
+
 
 }

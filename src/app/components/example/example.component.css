@@ -1,0 +1,14 @@
+li {
+  color: darkcyan;
+}
+
+.fancyname {
+  font-family: "Roboto Light", sans-serif;
+  display: inline-block;
+  color: chartreuse;
+}
+
+.mittig {
+
+  text-align: center;
+}
