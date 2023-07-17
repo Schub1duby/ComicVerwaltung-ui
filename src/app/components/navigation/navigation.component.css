@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.nav-item a.active {
+  color: #007bff;
+}
+
+/* Some hover effect */
+.nav-item a:hover {
+  color: #0056b3;
+}
