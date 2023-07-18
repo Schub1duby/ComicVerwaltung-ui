@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Comic} from "../../comic";
 
 @Component({
   selector: 'app-home',
@@ -16,10 +17,18 @@ comicTitleDe: string = ''
   cgcGrade: string = ''
 
 
-  submit(){
+  submit() {
     console.log('hallo')
-
+    const comic: Comic = {
+      comicTitleEn: this.comicTitleEn,
+      comicTitleDe: this.comicTitleDe,
+      comicReihe: this.comicReihe,
+      volume: this.volume,
+      issue: this.issue,
+      SerielNumber: this.SerielNumber,
+      publisher: this.publisher,
+      cgcGrade: this.cgcGrade
+    }
+    console.log(comic)
   }
-
-
 }
