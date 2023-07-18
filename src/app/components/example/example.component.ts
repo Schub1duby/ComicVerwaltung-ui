@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Comic} from "../../comic";
 
 @Component({
   selector: 'app-example',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./example.component.css']
 })
 export class ExampleComponent {
+  comics: Comic[] = [
+    {comicTitleEn: 'Badman', comicTitleDe: 'Badman'} ,
+    {comicTitleEn: 'Asterix&Obelix', comicTitleDe: 'Asterix&Obelix'}
 
+
+  ];
 }

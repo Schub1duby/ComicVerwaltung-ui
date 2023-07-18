@@ -1,1 +1,23 @@
 <p>list works!</p>
+<table>
+  <tr>
+    <th>comicTitleEn</th>
+    <th>comicTitleDe</th>
+    <th>comicReihe</th>
+    <th>volume</th>
+    <th>issue</th>
+    <th>SerialNumber</th>
+    <th>publisher</th>
+    <th>cgcGrade</th>
+  </tr>
+  <tr *ngFor="let comic of comics">
+    <td> {{comic.comicTitleEn}}</td>
+    <td> {{comic.comicTitleDe}}</td>
+    <td> {{comic.comicReihe}}</td>
+    <td> {{comic.volume}}</td>
+    <td> {{comic.issue}}</td>
+    <td> {{comic.SerielNumber}}</td>
+    <td> {{comic.publisher}}</td>
+    <td> {{comic.cgcGrade}}</td>
+  </tr>
+</table>

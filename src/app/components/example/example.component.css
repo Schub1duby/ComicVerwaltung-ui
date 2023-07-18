@@ -2,6 +2,12 @@ li {
   color: darkcyan;
 }
 
+td{
+  border: 1px solid black;
+}
+th {
+  border: 1px solid black;
+}
 .fancyname {
   font-family: "Roboto Light", sans-serif;
   display: inline-block;
