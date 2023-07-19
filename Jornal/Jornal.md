@@ -13,3 +13,42 @@ Ich bin zuversichtlich das das eine coole Woche wird.
 
 
 Gaia
+
+
+
+
+
+
+
+
+## 18.07.2023:
+Wir haben heute die MySQL angeschaut. 
+Mir gefiel es sehr aber es war zum teil sehr kompliziert.
+Aber mit hilfe von Cyrill und Mario gings.
+Ich bin gespannt wie es Morgen wird...
+Es macht mich immer wieder stolz zu sehen was man gemacht hat.
+
+
+
+### Gaia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
-<p>list works!</p>
+
 <table>
-  <tr>
+  <tr class="bluebackground">
     <th>comicTitleEn</th>
     <th>comicTitleDe</th>
     <th>comicReihe</th>
@@ -10,14 +10,28 @@
     <th>publisher</th>
     <th>cgcGrade</th>
   </tr>
-  <tr *ngFor="let comic of comics">
+  <tr class="tr-data" *ngFor="let comic of comics">
     <td> {{comic.comicTitleEn}}</td>
     <td> {{comic.comicTitleDe}}</td>
     <td> {{comic.comicReihe}}</td>
     <td> {{comic.volume}}</td>
     <td> {{comic.issue}}</td>
-    <td> {{comic.SerielNumber}}</td>
+    <td> {{comic.serialNumber}}</td>
     <td> {{comic.publisher}}</td>
     <td> {{comic.cgcGrade}}</td>
   </tr>
 </table>
+<div class="lds-spinner">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>

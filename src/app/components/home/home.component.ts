@@ -25,7 +25,7 @@ comicTitleDe: string = ''
       comicReihe: this.comicReihe,
       volume: this.volume,
       issue: this.issue,
-      SerielNumber: this.SerielNumber,
+      serialNumber: this.SerielNumber,
       publisher: this.publisher,
       cgcGrade: this.cgcGrade
     }

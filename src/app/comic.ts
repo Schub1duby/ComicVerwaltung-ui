@@ -4,7 +4,7 @@ export interface Comic {
   comicReihe?: string;
   volume?: string;
   issue?: string;
-  SerielNumber?: string;
+  serialNumber?: string;
   publisher?: string;
   cgcGrade?: string;
 }
