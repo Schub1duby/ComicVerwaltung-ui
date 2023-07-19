@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Comic} from "../../comic";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import {Comic} from "../../comic";
 })
 export class HomeComponent {
   comicTitleEn: string = ''
-comicTitleDe: string = ''
+  comicTitleDe: string = ''
   comicReihe: string = ''
   volume: string = ''
   issue: string = ''
@@ -16,6 +17,9 @@ comicTitleDe: string = ''
   publisher: string = ''
   cgcGrade: string = ''
 
+  constructor(private httpClient: HttpClient) {
+
+  }
 
   submit() {
     console.log('hallo')
@@ -29,8 +33,34 @@ comicTitleDe: string = ''
       publisher: this.publisher,
       cgcGrade: this.cgcGrade
     }
+    this.httpClient.post<Comic>('http://localhost:8080/api/comic',comic).subscribe(item => {
+      console.log('Erhalten:', item)
+
+
+    })
     console.log(comic)
+    this.comicTitleEn=''
+    this.comicTitleDe = ''
+    this.comicReihe= ''
+    this.volume= ''
+    this.issue= ''
+    this.SerielNumber= ''
+    this.publisher= ''
+    this.cgcGrade= ''
+
   }
+  clear(){
+    this.comicTitleEn=''
+    this.comicTitleDe = ''
+    this.comicReihe= ''
+    this.volume= ''
+    this.issue= ''
+    this.SerielNumber= ''
+    this.publisher= ''
+    this.cgcGrade= ''
+
+  }
+
 }
 
 

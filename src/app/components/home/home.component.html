@@ -1,47 +1,61 @@
-<h1>Home-Seite</h1>
-<label for=""> Comic name in English:</label>
-<br>
-<input [(ngModel)]="comicTitleEn" type="text">
-<br>
-<br>
-<label for=> Comic name in Deutsch:</label>
-<br>
-<input [(ngModel)]="comicTitleDe" type="text">
-<br>
-<br>
-<label for=> Comicreihe:</label>
-<br>
-<input [(ngModel)]="comicReihe" type="text">
-<br>
-<br>
-<label for=> volume: </label>
-<br>
-<input  [(ngModel)]="volume" type="text">
-<br>
-<br>
-<label for=""> issue:</label>
-<br>
-<input [(ngModel)]="issue" type="text">
-<br>
-<br>
-<label for="">Serialnummer:</label>
-<br>
-<input [(ngModel)]="SerielNumber" type="text">
-<br>
-<br>
-<label  for="">publisher:</label>
-<br>
-<input [(ngModel)]="publisher" type="text">
-<br>
-<br>
-<label for="">cgcGrade:</label>
-<br>
-<input [(ngModel)]="cgcGrade" type="text">
-<br>
+<div class="form"><h1>Home-Seite</h1>
+  <div class="form-element">
+    <label for=""> Comic name in English:</label>
+    <br>
+    <input [(ngModel)]="comicTitleEn" type="text">
+  </div>
+  <br>
+  <div class="form-element">
+    <label for=> Comic name in Deutsch:</label>
+    <br>
+    <input [(ngModel)]="comicTitleDe" type="text">
+  </div>
+  <br>
+  <div class="form-element">
+    <label for=> Comicreihe:</label>
+    <br>
+    <input [(ngModel)]="comicReihe" type="text">
+  </div>
+  <br>
+  <div class="form-element">
+    <label for=> volume: </label>
+    <br>
+    <input [(ngModel)]="volume" type="text">
+  </div>
+  <br>
+  <div class="form-element">
+    <label for=""> issue:</label>
+    <br>
+    <input [(ngModel)]="issue" type="text">
+
+  </div>
+  <br>
+  <div class="form-element">
+    <label for="">Serialnummer:</label>
+    <br>
+    <input [(ngModel)]="SerielNumber" type="text">
+  </div>
+  <br>
+  <div class="form-element">
+    <label for="">publisher:</label>
+    <br>
+    <input [(ngModel)]="publisher" type="text">
+  </div>
+  <br>
+  <div class="form-element">
+    <label for="">cgcGrade:</label>
+    <br>
+    <input [(ngModel)]="cgcGrade" type="text">
+  </div>
 
 
-<button (click)="submit()">Button</button>
+  <button (click)="submit()">Senden</button>
 
+  <button (click)="clear()">
+    löschen
+  </button>
+
+</div>
 
 
 
