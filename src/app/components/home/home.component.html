@@ -1,58 +1,58 @@
 <div class="form"><h1>Home-Seite</h1>
   <div class="form-element">
-    <label for=""> Comic name in English:</label>
+    <label for=""> Comic Name in Englisch:</label>
     <br>
-    <input [(ngModel)]="comicTitleEn" type="text">
+    <input [(ngModel)]="comicTitleEn" type="text" placeholder="Hulk">
   </div>
   <br>
   <div class="form-element">
-    <label for=> Comic name in Deutsch:</label>
+    <label for=> Comic Name in Deutsch:</label>
     <br>
-    <input [(ngModel)]="comicTitleDe" type="text">
+    <input [(ngModel)]="comicTitleDe" type="text" placeholder="Hulk">
   </div>
   <br>
   <div class="form-element">
     <label for=> Comicreihe:</label>
     <br>
-    <input [(ngModel)]="comicReihe" type="text">
+    <input [(ngModel)]="comicReihe" type="text" placeholder="The incredible Hulk">
   </div>
   <br>
   <div class="form-element">
-    <label for=> volume: </label>
+    <label for=> Volume: </label>
     <br>
-    <input [(ngModel)]="volume" type="text">
+    <input [(ngModel)]="volume" type="text" placeholder="2">
   </div>
   <br>
   <div class="form-element">
-    <label for=""> issue:</label>
+    <label for=""> Issue:</label>
     <br>
-    <input [(ngModel)]="issue" type="text">
+    <input [(ngModel)]="issue" type="text" placeholder="8">
 
   </div>
   <br>
   <div class="form-element">
-    <label for="">Serialnummer:</label>
+    <label for="">Seriennummer:</label>
     <br>
-    <input [(ngModel)]="SerielNumber" type="text">
+    <input [(ngModel)]="SerielNumber" type="text" placeholder="7359661">
   </div>
   <br>
   <div class="form-element">
-    <label for="">publisher:</label>
+    <label for="">Verlag:</label>
     <br>
-    <input [(ngModel)]="publisher" type="text">
+    <input [(ngModel)]="publisher" type="text" placeholder="Marvel Comics">
   </div>
   <br>
   <div class="form-element">
-    <label for="">cgcGrade:</label>
+    <label for="">CGC-Grade:</label>
     <br>
-    <input [(ngModel)]="cgcGrade" type="text">
+    <input [(ngModel)]="cgcGrade" type="text" placeholder="6.5">
   </div>
 
 
   <button (click)="submit()">Senden</button>
 
   <button class="runaway-button" (click)="clear()" (mouseenter)="runaway($event)">
-    löschen
+    Löschen
   </button>
 
 </div>
