@@ -41,13 +41,25 @@ Es macht mich immer wieder stolz zu sehen was man gemacht hat.
 
 
 
+## 19.07.2023:
+Zuerst haben wir schritt für schritt Javascript angeschaut.
+Als ich es mehr oder weniger verstanden habe, ging es darum so viel wie möglich alleine zu machen.
+Das ging einergermassen gut. Ich bin gespannt wie viel ich heute alleine schaffen soll...:)
+
+
+
+### Gaia
 
 
 
 
 
-
-
+## 20.07.2023:
+Heute kam Carsten zu mir mit einer "tollen" überraschung:
+Ich soll eine Präsi halten.
+Zuerst bekam ich ein bisschen panik aber danach hies es ich soll einfach erzählen was ich diese woche gemacht habe.
+Ich hoffe ich bin nicht allzu nervös bei der Besprechung.
+Das wird schon denke ich.
 
 
 

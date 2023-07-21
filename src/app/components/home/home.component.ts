@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, ElementRef, Renderer2} from '@angular/core';
 import {Comic} from "../../comic";
 import {HttpClient} from "@angular/common/http";
 
@@ -17,7 +17,7 @@ export class HomeComponent {
   publisher: string = ''
   cgcGrade: string = ''
 
-  constructor(private httpClient: HttpClient) {
+  constructor(private httpClient: HttpClient, private renderer: Renderer2, private el: ElementRef) {
 
   }
 
@@ -61,6 +61,18 @@ export class HomeComponent {
 
   }
 
+
+
+  runaway($event: MouseEvent) {
+    const newX = Math.floor(Math.random() * (window.innerWidth - 100)) + 'px';
+    const newY = Math.floor(Math.random() * (window.innerHeight - 100)) + 'px';
+
+    const button = this.el.nativeElement.querySelector('.runaway-button');
+
+    this.renderer.setStyle(button, 'position', 'absolute');
+    this.renderer.setStyle(button, 'left', newX);
+    this.renderer.setStyle(button, 'top', newY);
+  }
 }
 
 
